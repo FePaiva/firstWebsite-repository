@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    border: solid green;
+    background-color: yellow;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px 100px 100px 100px;
+    background-image: url('brazilMap.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+   
+  }
+  u {
+      color: green;
+  }
+  #quiz u {
+      color: black;
+  }
+
+  #button {
+     background-color: green;
+     color: white;
+     font-size: 20px;
+     padding: 5px;
+     border: 5px solid blue;
+  }
+  #button:hover, button:focus, button:active {
+    /* swap colors */
+    color: gold;
+    background-color: blue;
+    border: 5px solid green;
+    cursor: pointer; /* displays a hand */
+  }
+img {
+    width: 50px;
+}
+input:hover, button:focus, button:active {
+    cursor: pointer;
+}

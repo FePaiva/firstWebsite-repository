@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Do you know me?</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Hi there! Nice to meet you! I am <u>Brasil</u>!</h1> 
+    </header>
+    <h4>I would like to share a few things about me, so you can know me a bit better.
+    </h4>
+    <h4>
+        <p>I was discovered by the Portugueses in 1500, when <a href="https://www.britannica.com/biography/Pedro-Alvares-Cabral" target="_blank" rel="noopener noreferrer">Pedro Alvares Cabral</a>, who was trying to reach India, landed in my shores. When the Portuguese Crown found out how rich I was, 
+        they decided to stay and have me as one of their colonies.</p>
+        
+        <p>My name, Brasil, comes from a tree called <a href="https://www.bioparquebrasil.com.br/en/arvores/pau-brasil/" target="_blank" rel="noopener noreferrer">Pau Brasil</a>. The word “brasil”, derives from “brasa”(ember), in reference to the red color of the tree’s trunk associated with fire.</p>
+        
+        <p>Lets play a quiz to see whatelse you know about me.</p>
+    </h4>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>1. <u>What is my Flag?</u></p>
+            <p><input type="radio" name="question1" value="flag1">
+                <img class="option-flag" data-option="1" src="Flag1.jpeg" alt="Flag option 1" title="Is this my flag?"/>
+            </p>
+            <p><input type="radio" name="question1" value="flag2"> 
+                <img class="option-flag" data-option="2" src="Flag2.jpeg" alt="Flag option 2" title="Is this my flag?"/>
+            </p>
+            <p><input type="radio" name="question1" value="flag3">
+                <img class="option-flag" data-option="3" src="Flag3.jpeg" alt="Flag option 3" title="Is this my flag?"/>
+            </p>
+            <p><input type="radio" name="question1" value="flag4">
+                <img class="option-flag" data-option="4" src="Flag4.jpeg" alt="Flag option 4" title="Is this my flag?"/>
+            </p>
+        </div>
+        <div>
+            <p>2. <u>What language do I speak?</u></p>
+            <p><input type="radio" name="question2" value="Brazilian"> Brazilian</p>
+            <p><input type="radio" name="question2" value="Spanish"> Spanish</p>
+            <p><input type="radio" name="question2" value="Portuguese"> Portuguese</p>
+            <p><input type="radio" name="question2" value="Catalan"> Catalan</p>
+        </div>
+        <div>
+            <p>3. <u>What is the name of my Capital?</u></p>
+            <p><input type="radio" name="question3" value="Rio de Janeiro"> Rio de Janeiro</p>
+            <p><input type="radio" name="question3" value="São Paulo"> São Paulo</p>
+            <p><input type="radio" name="question3" value="Brasilia"> Brasilia</p>
+            <p><input type="radio" name="question3" value="Salvador"> Salvador</p>
+        </div>
+        <div>
+            <p>4. <u>Where am I located?</u></p>
+            <p><input type="radio" name="question4" value="South Africa"> South Africa</p>
+            <p><input type="radio" name="question4" value="North America"> North America</p>
+            <p><input type="radio" name="question4" value="Central America"> Central America</p>
+            <p><input type="radio" name="question4" value="South America"> South America</p>
+        </div>
+        <div>
+            <p>5. <u>How many countries I share my border with?</u></p>
+            <p><input type="radio" name="question5" value="10"> 10</p>
+            <p><input type="radio" name="question5" value="11"> 11</p>
+            <p><input type="radio" name="question5" value="12"> 12</p>
+            <p><input type="radio" name="question5" value="9"> 9</p>
+        </div>
+        <input type="button" name="" value="Submit Answers" id="button" onclick="check()">
+       
+    </form>
+    <p id="result"></p>
+</body>
+</html>

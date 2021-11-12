@@ -8,7 +8,7 @@ function check() {
  var result = document.getElementById('result');
  var quiz = document.getElementById("quiz");
  
-if (q1=="Flag2") {c++}
+if (q1=="flag2") {c++}
 if (q2=="Portuguese") {c++}
 if (q3=="Brasilia") {c++}
 if (q4=="South America") {c++}

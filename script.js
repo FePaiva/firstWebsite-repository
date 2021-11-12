@@ -15,11 +15,11 @@ if (q4=="South America") {c++}
 if (q5=="10") {c++}
 
 if (c<=3) {
-    result.textContent=`You scored ${c}. Check a few fact about me and my people here.`
+    result.textContent=`You scored ${c}. Do you want to know the correct answers and much more? Click here.`
     
 } 
 else {
-    result.textContent=`WOW! You scored ${c}. You know a lot about me! Do you want to know more? Check here`
+    result.textContent=`WOW! You scored ${c}. Do you want to know more? Check here`
 }
 
 }
